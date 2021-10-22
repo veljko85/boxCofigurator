@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="128.0px"
+   height="128.0px"
+   viewBox="0 0 128.0 128.0"
+   version="1.1"
+   id="SVGRoot"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16">
+    <linearGradient
+       id="linearGradient3231">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3229" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1263">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1261" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1257">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop1255" />
+    </linearGradient>
+  </defs>
+  <g
+     id="layer1">
+    <circle
+       style="fill:#00ffff;fill-rule:evenodd;stroke-width:5.049;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path302"
+       cx="64.121765"
+       cy="62.257744"
+       r="59.28159" />
+    <ellipse
+       style="opacity:1;fill:#00ffff;stroke:#ffffff;stroke-width:6.8581;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path30231"
+       cx="64.557121"
+       cy="63.460033"
+       rx="36.441528"
+       ry="34.807453" />
+  </g>
+</svg>
