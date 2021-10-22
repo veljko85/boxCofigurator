@@ -1,0 +1,224 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.container-box {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(212, 212, 212);
+}
+.conf-cont {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(212, 212, 212);
+  float: left;
+}
+.panel-container {
+  width: 80%;
+  height: 80%;
+  margin: 10% auto;
+  background-color: #fff;
+}
+.top-panel-holder {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  z-index: 1;
+  top: 2px;
+  /* background-color: darkgreen; */
+}
+.panel-dust-left-top-cont-Holder {
+  width: 180px;
+  height: 180px;
+  float: left;
+  /* background-color: darkgreen; */
+}
+.panel-dust-left-top-cont {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  /* background-image: linear-gradient(blue, white); */
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 50%, 80% 50%, 100% 90%, 100% 100%, 0 100%, 0% 50%);
+}
+.panel-dust-left-top {
+  width: 99%;
+  height: 99%;
+  /* padding: 2% 1% 0 1%; */
+  position: relative;
+  top: 1%;
+  left: 0.5%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 50%, 80% 50%, 100% 90%, 100% 100%, 0 100%, 0% 50%);
+}
+.panel-dust-right-top-cont-Holder {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 180px;
+}
+.panel-dust-right-top-cont {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  /* background-image: linear-gradient(blue, white); */
+  /* border: 1px solid blue; */
+  clip-path: polygon(20% 50%, 100% 50%, 100% 90%, 100% 100%, 0 100%, 0% 90%);
+}
+.panel-dust-right-top {
+  width: 99%;
+  height: 99%;
+  /* padding: 2% 1% 0 1%; */
+  position: relative;
+  top: 1%;
+  left: 0.5%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid blue; */
+  clip-path: polygon(20% 50%, 100% 50%, 100% 90%, 100% 100%, 0 100%, 0% 90%);
+}
+.middle-panel-holder {
+  width: 100%;
+  height: 180px;
+  position: relative;
+  z-index: 2;
+  /* background-color: darkgreen; */
+}
+
+.panel-squere {
+  width: 180px;
+  height: 180px;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-right: 1px dashed red;
+  /* border-right: none; */
+  box-sizing: border-box;
+}
+.panel-squere:hover {
+  box-shadow: 0px 0px 8px #fcff43;
+  z-index: 5;
+}
+.bottom-panel-holder {
+  width: 100%;
+  height: 180px;
+  /* background-color: rgb(99, 99, 99); */
+  position: relative;
+  z-index: 1;
+  bottom: 2px;
+}
+.panel-dust-left-bottom-cont-Holder {
+  width: 180px;
+  height: 180px;
+  float: left;
+  /* background-color: darkgreen; */
+}
+.panel-dust-left-bottom-cont {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  /* background-image: linear-gradient(blue, white); */
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 80% 50%, 0 50%, 0% 10%);
+}
+.panel-dust-left-bottom {
+  width: 99%;
+  height: 99%;
+  /* padding: 2% 1% 0 1%; */
+  position: relative;
+  left: 0.5%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 80% 50%, 0 50%, 0% 10%);
+}
+.panel-dust-right-bottom-cont-Holder {
+  width: 180px;
+  height: 180px;
+  float: left;
+  margin-left: 180px;
+}
+.panel-dust-right-bottom-cont {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  /* background-image: linear-gradient(blue, white); */
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 50%, 20% 50%, 0% 10%);
+}
+.panel-dust-right-bottom {
+  width: 99%;
+  height: 99%;
+  /* padding: 2% 1% 0 1%; */
+  position: relative;
+  left: 0.5%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid blue; */
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 100% 50%, 20% 50%, 0% 10%);
+}
+/* .canvas-container {
+  width: 50% !important;
+  height: 100% !important;
+  float: left;
+}
+.lower-canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.upper-canvas {
+  width: 100% !important;
+  height: 100% !important;
+} */
+
+/* .fabric-canvas {
+  width: 50% !important;
+  height: 100% !important;
+  float: right;
+  margin: 0;
+} */
+
+.canvas-container {
+  float: left;
+  top: 20%;
+  /* left: 5%; */
+  clip-path: polygon(
+    24% 33%,
+    24% 36%,
+    48% 36%,
+    48% 33%,
+    54% 18%,
+    72% 18%,
+    72% 3%,
+    74% 0,
+    93% 0,
+    95% 3%,
+    95% 36%,
+    100% 40%,
+    100% 60%,
+    95% 64%,
+    95% 97%,
+    93% 100%,
+    74% 100%,
+    72% 97%,
+    72% 82%,
+    54% 82%,
+    48% 67%,
+    48% 64%,
+    24% 64%,
+    24% 67%,
+    18% 82%,
+    0 82%,
+    0 18%,
+    18% 18%
+  );
+}
+.render-canvas-box {
+  width: 40%;
+  height: 100%;
+  touch-action: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+  float: right;
+}
